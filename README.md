@@ -9,14 +9,14 @@ For encrypting messages it is recommended to use [CyberChef](https://gchq.github
 ## Set Channel ID's
 **This will require editing the .py file.**
 
-On row *93* replace **'General Channel ID Here' (remove ' ')** with your *Channel ID*.
-On row *108* replace **'Deciphered_Text Channel ID Here' (remove ' ')** with your *Channel ID*.
+On row *94* replace **'General Channel ID Here' (remove ' ')** with your *Channel ID*.
+On row *109* replace **'Deciphered_Text Channel ID Here' (remove ' ')** with your *Channel ID*.
 To get Channel ID go to *User Settings -> Advanced* and enable *Developer Mode*. Then right click the designated channel, at the bottom select **Copy ID**.
 
 ## Set BOT ID
 **This will require editing the .py file.**
 
-On the last row (229) replace **'Insert BOT ID Here' (leave ' ')** with your *BOT ID*.
+On the last row (230) replace **'Insert BOT ID Here' (leave ' ')** with your *BOT ID*.
 For next step you will need to create a Discord BOT profile.
 To get BOT ID go to [Discord Applications](https://discord.com/developers/applications) and select your application. Then select *BOT* and you can copy your *Token*.
 
