@@ -31,7 +31,7 @@ async def help(ctx):
 
 	embed.set_author(name = "SWIRLE Help List")
 	embed.add_field(name = 'Secure Working Interpreter Robot Leaving Encryption (SWIRLE)', value = help_text, inline = False)
-	embed.add_field(name = 'Documentation:', value = '**[GitHub](https://github.com/ChrisSapp/SWIRLE)**')
+	embed.add_field(name = 'Documentation:', value = '**[GitHub](https://github.com/SWIRLE-Crew/SWIRLE)**')
 
 	await member.send(author, embed=embed)
 
