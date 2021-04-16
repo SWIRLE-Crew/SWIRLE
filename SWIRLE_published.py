@@ -4,7 +4,8 @@ import random
 
 # Documentation available @ https://github.com/ChrisSapp/SWIRLE
 
-client = commands.Bot(command_prefix = '.')
+intents = discord.Intents(messages = True, guilds = True, reactions = True, members = True, presences = True)
+client = commands.Bot(command_prefix = '.', intents = intents)
 client.remove_command('help')
 
 # On bot startup display that SWIRLE is active
