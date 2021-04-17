@@ -20,6 +20,12 @@ On the last row (230) replace **'Insert BOT ID Here' (leave ' ')** with your *BO
 For next step you will need to create a Discord BOT profile.
 To get BOT ID go to [Discord Applications](https://discord.com/developers/applications) and select your application. Then select *BOT* and you can copy your *Token*.
 
+## Selecting Encyption Method
+To select the encryption method you will need to use the appropraite header, **$N**, **$C**, or **$A**.
+
+For example: 
+If you wanted to send a message 'Hello' using Caesar encyption with a shift of 13, the format would be $CUryyb.
+
 ## Commands
 
 ### .help
